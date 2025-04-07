@@ -8,9 +8,12 @@ public class EvenOrOdd {
     // This Application accept an integer number from user and determines whether
     // it's Even or Odd number
     public static void main(String[] args) {
+
         // Collect input from user
         Scanner scan = new Scanner(System.in);
 
+        // Get input from the User
+        System.out.println("Enter an Integer Number");
         int numberInput = scan.nextInt();
 
         // Check the number if it is even or odd number
@@ -19,6 +22,12 @@ public class EvenOrOdd {
         } else {
             System.out.println(numberInput + "  " + " is an ODD number");
         }
+
+
+
+
+        
+
 
     }
 }

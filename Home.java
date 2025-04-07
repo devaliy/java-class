@@ -1,5 +1,6 @@
 public class Home {
     public static void main(String[] args) {
+       
         int num = 10;
         int num1 = 20;
 
@@ -16,14 +17,18 @@ public class Home {
          *
          * 5. Java is Case Sensitive
          */
+
         int sumOfTwoVariables;
         int SUMOFTWOVARIABLE;
+        
         // sumOfTwoVariables != SUMOFTWOVARIABLE;
+
 
         /*
          * 6. Follow Best Practice when na,ing vriables in java e.g
          */
-        String myVariableName; // using Camel casing
+
+        string myVariableName; // using Camel casing
         int sumOF3Variables; // Using Camel casing
 
         /*
@@ -40,8 +45,5 @@ public class Home {
         int secondVal = 4;
         double valVariable = 33121222.43235;
         float smallVarible = 2.5;
-
-        
-
     }
 }
