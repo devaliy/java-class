@@ -17,16 +17,18 @@ public class EvenOrOdd {
         int numberInput = scan.nextInt();
 
         // Check the number if it is even or odd number
-        if (numberInput % 2 == 0) {
-            System.out.println(numberInput + " " + " is an EVEN number");
-        } else {
-            System.out.println(numberInput + "  " + " is an ODD number");
-        }
+        // if (numberInput % 2 == 0) {
+        //     System.out.println(numberInput + " " + " is an EVEN number");
+        // } else {
+        //     System.out.println(numberInput + "  " + " is an ODD number");
+        // }
 
+        // Ternary Operator Use case for Even or Odd number
+        // condition ? value_if_true : value_if_false;
 
-
-
-        
+        String result = (numberInput % 2 == 0) ? numberInput + " " + " is an EVEN number"
+                : numberInput + "  " + " is an ODD number";
+        System.out.println(result);
 
 
     }
